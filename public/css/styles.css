@@ -1,0 +1,50 @@
+body {
+    background-color: #00C897;
+}
+
+div{
+    height:auto; 
+    margin: 10% auto; 
+    text-align: center;
+}
+
+form{
+    padding-top: 20px;
+    width:50%; 
+    margin:0 auto;
+}
+
+.inputBox {
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #00C897;
+    color: white;
+  }
+
+.imgLogo {
+    width: 350px;
+    height: 350px;
+}
+
+.weathericon {
+    width: 160px;
+    height: 160px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.weatherResult {
+    font-size: 20px;
+}
