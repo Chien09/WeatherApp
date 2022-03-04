@@ -51,7 +51,7 @@ app.post("/", function(request, response){
     //console.log(request.body.cityName); 
 
     //API link to get the weather data from another server 
-    const apiKey = "&appid=00ede88d1a02155923b5767080a007f1";
+    const apiKey = "&appid="; //enter your apiKey here
     const cityQuery = request.body.cityName;
     const metric = "&units=metric";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityQuery}${metric}${apiKey}`
